@@ -1,27 +1,39 @@
-/* Your CSS Code here. */
 .chart-container {
     padding: 20px;
     background-color: #fff;
 }
+
 .chart {
     width: 100%;
     text-align: right;
+    border-collapse: collapse;
+    border: 1px solid black;
 }
-.align-left{
-	
-	text-align: left;
+
+.chart th,
+.chart td {
+    border: 1px solid black; /* Adds border to each cell */
+    padding: 8px;
 }
-.first-row{
-	background-color: #1d1160;
-	color: white;
+
+.align-left {
+    text-align: left;
 }
-.second-row{
-	background-color: #EE82EE;
-	color: white;
+
+.first-row {
+    background-color: #1d1160;
+    color: white;
 }
-.third-row{
-	background-color: #DDA0DD;
+
+.second-row {
+    background-color: #EE82EE;
+    color: white;
 }
-.fourth-row{
-	background-color: #D8BFD8;
+
+.third-row {
+    background-color: #DDA0DD;
+}
+
+.fourth-row {
+    background-color: #D8BFD8;
 }
