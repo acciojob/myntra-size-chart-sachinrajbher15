@@ -1,2 +1,27 @@
-
 /* Your CSS Code here. */
+.chart-container {
+    padding: 20px;
+    background-color: #fff;
+}
+.chart {
+    width: 100%;
+    text-align: right;
+}
+.align-left{
+	
+	text-align: left;
+}
+.first-row{
+	background-color: #1d1160;
+	color: white;
+}
+.second-row{
+	background-color: #EE82EE;
+	color: white;
+}
+.third-row{
+	background-color: #DDA0DD;
+}
+.fourth-row{
+	background-color: #D8BFD8;
+}
